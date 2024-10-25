@@ -1,4 +1,7 @@
 ### 🚀Hey there, and welcome to the SWE Journey Channel !(https://whatsapp.com/channel/0029Van6nCX9MF8tXCYZOs40)
+I am learner just like you,my friend created this channel who wants to learn DSA, can join by above link
+
+I will be posting the content and questions from the group and there will be my soultion for that problem and also the given solution in the channel.
 
 
     1. Daily coding questions to help you practice and improve your problem-solving skills.
