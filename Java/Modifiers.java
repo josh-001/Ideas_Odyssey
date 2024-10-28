@@ -25,29 +25,29 @@ class Data{
     private String name;
     
 
-    public Data(){
-        this.name="assiged in privateclass";
-    }
-    public void printName() {
-        System.out.println("Name: " + name);
-    }
+    // public Data(){
+    //     this.name="assiged in privateclass";
+    // }
+    // public void printName() {
+    //     System.out.println("Name: " + name);
+    // }
 
     // getter method
-    // public String getName(){
-    //     return this.name;
-    // }
-    // // setter method
-    // public void setName(String name) {
-    //     this.name= name;
-    // }
+    public String getNae(){              // no need to getName can keep anything but should match
+        return this.name;
+    }
+    // setter method
+    public void setNae(String name) {   // no need to setName can keep anything but should match
+        this.name= name;
+    }
 }
 public class Modifiers {
 
     public static void main(String[] args){
         Data d = new Data();
-        d.printName();
+        // d.printName();
 
-        // d.setName("yes-its a name");
-        // System.out.println(d.getName());
+        d.setNae("yes-its a name");
+        System.out.println(d.getNae());
     }
 }
