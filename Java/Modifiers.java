@@ -26,12 +26,12 @@ class Data{
     
 
     public Data(){
-        this.name="sdfdsfj";
+        this.name="assiged in private class";
     }
     public void printName() {
         System.out.println("Name: " + name);
     }
-    
+
     // getter method
     // public String getName(){
     //     return this.name;
