@@ -35,10 +35,10 @@ class Data{
 }
 public class Modifiers {
 
-    public static void main(String[] main){
+    public static void main(String[] args){
         Data d = new Data();
 
-        d.setName("its a name");
+        d.setName("yes-its a name");
         System.out.println(d.getName());
     }
 }
