@@ -26,7 +26,7 @@ class Data{
     
 
     public Data(){
-        this.name="assiged in private class";
+        this.name="assiged in privateclass";
     }
     public void printName() {
         System.out.println("Name: " + name);
