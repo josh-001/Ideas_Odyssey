@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
         ////  for loop   //
 
 public class flow_control {
