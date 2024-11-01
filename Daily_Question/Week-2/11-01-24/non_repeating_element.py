@@ -27,3 +27,5 @@ def non_repeat_ele(a):
 arr = [4, 5, 1, 2, 4,5,2,0,0,1]
 # arr = [4, 5, 1, 2, 0, 4]
 print(non_repeat_ele(arr))
+   ## took reference from GFG
+## https://www.geeksforgeeks.org/counting-the-frequencies-in-a-list-using-dictionary-in-python/
