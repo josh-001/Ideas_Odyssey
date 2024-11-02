@@ -63,7 +63,7 @@
 abstract class Animal {
     // Abstract method (does not have a body)
     public abstract void sound();
-
+    // int price=100000;
     // Regular method
     public void sleep() {
         System.out.println("The animal is sleeping");
@@ -71,6 +71,7 @@ abstract class Animal {
 }
 
 class Dog extends Animal {
+    int price=100000;
     public void sound() {
         System.out.println("The dog barks");
     }
@@ -86,7 +87,7 @@ public class Parent {
     public static void main(String[] args) {
         Animal myDog = new Dog();
         Animal myCat = new Cat();
-
+        System.out.println(myDog.price);
         myDog.sound();
         myDog.sleep();
 
