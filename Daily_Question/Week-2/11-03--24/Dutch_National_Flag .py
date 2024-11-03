@@ -1,3 +1,6 @@
+
+        ###  teacher gave many hints to solve so able to do it ###
+
 def sort_arrange(a):
     low=mid=0
     high=len(a)-1
