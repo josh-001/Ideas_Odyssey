@@ -1,5 +1,46 @@
 
-            //  EXCEPTION HANDING  
+
+        //  CHECKED exception
+
+
+
+
+        //    UNCHECKED EXCEPTION   //
+
+// public class excetion_handling{
+//     public static void main(String[] args){
+
+//         int val3=Integer.parseInt("abc");  //java.lang.NumberFormatException: For input string: "abc"
+//         String val2=null;
+//         System.out.println(val2.charAt(0)); //java.lang.NullPointerException
+//         String val="Hello";
+//         System.out.println(val.charAt(5));//String index out of range: 5
+//         int[] val1=new int[2];
+//         System.out.println(val1[3]);  //Index 3 out of bounds for length 2(AARRAY)
+//     }
+// }
+
+//             // ClassCast  Exception
+// public class excetion_handling {
+//     public static void main(String[] args){
+//         Object val=0;
+//         System.out.println((String)val);//class java.lang.Integer cannot be cast to class java.lang.String
+//     }
+// }
+
+            //  RUNTIME EXCEPTIONS  ----which occurs during runtime andcompiler not forcing to handle them
+// public class excetion_handling {
+//     public static void main(String[] args) {
+//         method1();
+//     }
+//     public static void method1(){
+//         throw new ArithmeticException();
+//     }
+// }
+
+
+
+       //  Arthemetic HANDING  
 // public class excetion_handling {
 //     public static void main(String[] args) {
 //         excetion_handling obj=new excetion_handling();
