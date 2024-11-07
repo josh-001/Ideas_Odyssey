@@ -1,10 +1,19 @@
 
 
         //  CHECKED exception
-
-
-
-
+public class excetion_handling{
+        public static void main(String[] args){
+                int i = 0;
+                while (i < 5) {  // Change the condition to i < 5
+                try {
+                        System.out.println("i = " + i);
+                        i++;
+                } finally {
+                        System.out.println("Inside finally block, i = " + i);
+                } 
+                }
+        }
+}
         //    UNCHECKED EXCEPTION   //
 
 // public class excetion_handling{
